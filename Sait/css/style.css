@@ -524,7 +524,7 @@ em { font-style: normal; color: var(--red); }
 }
 
 .how__skin {
-  width: min(100%, 240px);
+  width: min(100%, 360px);
   filter: drop-shadow(0 18px 40px rgba(0, 0, 0, 0.5));
 }
 .how__side-caption { color: var(--gray); font-size: 0.85rem; margin-top: 16px; }
