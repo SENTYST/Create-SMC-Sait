@@ -35,7 +35,7 @@ Sait/
 ---------
 - IP сервера: smc.wellduck.org (копируется кнопкой).
 - Первая большая кнопка — "Наш Discord", вторая — "Скопировать IP".
-- В "Как начать играть" осталось 2 шага (шаг с покупкой лицензии убран).
+- В "Как начать играть" 3 шага: 1) Discord + верификация, 2) сборка модов, 3) заход на сервер.
 - Discord: https://discord.gg/JJ9uyjrTZs
 - Telegram: https://t.me/CreateSMC
 - TikTok: https://www.tiktok.com/@createsmc0
