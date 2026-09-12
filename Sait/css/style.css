@@ -292,6 +292,7 @@ em { font-style: normal; color: var(--red); }
   overflow: hidden;
 }
 
+.hero__banner-wrap { margin-top: 48px; }
 .hero__banner {
   width: 100%;
   height: auto;
@@ -299,8 +300,26 @@ em { font-style: normal; color: var(--red); }
   border-radius: 18px;
   border: 1px solid var(--border);
   box-shadow: 0 24px 70px rgba(0, 0, 0, 0.5);
-  margin-top: 48px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hero__caption {
+  margin-top: 12px;
+  text-align: center;
+  color: var(--gray);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.hero__caption::before {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--brass);
+  margin-right: 8px;
+  box-shadow: 0 0 8px rgba(197, 155, 109, 0.7);
 }
 
 .hero__banner:hover {
