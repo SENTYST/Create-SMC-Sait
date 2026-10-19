@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Create SMC — Индустриальный Minecraft сервер</title>
-  <meta name="description" content="Create SMC — сервер для тех, кто ценит процесс. Стройте заводы, прокладывайте поезда и создавайте сложные механизмы в моде Create." />
+  <title>Create SMC — Сезон OCEAN</title>
+  <meta name="description" content="Create SMC: OCEAN — новый сезон индустриального Minecraft сервера. Глубины ждут: стройте заводы, прокладывайте поезда и погружайтесь в мод Create." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" type="image/png" href="img/avatar.png" />
 </head>
@@ -18,7 +18,6 @@
       <a href="#top" class="logo" aria-label="Create SMC — на главную">
         <img src="img/avatar.png" alt="Аватарка Create SMC" class="logo__img" />
         <span class="logo__text"><em>SMC</em></span>
-        <span class="logo__status" title="Сервер онлайн"></span>
       </a>
 
       <nav class="nav" id="nav" aria-label="Основная навигация">
@@ -40,125 +39,189 @@
 
     <!-- HERO -->
     <section class="hero">
+      <div class="hero__depth" aria-hidden="true">
+        <div class="hero__rays"></div>
+        <span class="hero__reef hero__reef--left"></span>
+        <span class="hero__reef hero__reef--right"></span>
+        <svg class="hero__flora hero__flora--left" viewBox="0 0 260 420" fill="none">
+          <g stroke-linecap="round" fill="none">
+            <g class="hero__flora-back">
+              <path d="M96 420c-2-56 10-92 30-128" stroke-width="14" />
+              <path d="M164 420c2-60-8-96-24-130" stroke-width="12" />
+              <path d="M96 420c-14-40-34-64-62-78" stroke-width="10" />
+            </g>
+            <g class="hero__flora-front">
+              <path d="M126 420c4-62-6-100-16-146-4-20-2-36 8-54" stroke-width="9" />
+              <path d="M110 274c-18-10-32-24-38-44" stroke-width="6" />
+              <path d="M120 196c16-8 26-20 30-38" stroke-width="6" />
+              <path d="M118 220c-10 16-12 32-6 50" stroke-width="5" />
+              <path d="M133 152c-2-14 2-26 12-36" stroke-width="5" />
+              <path d="M112 158c-14-2-24-10-30-22" stroke-width="5" />
+            </g>
+          </g>
+          <g fill="currentColor">
+            <circle cx="112" cy="112" r="5" />
+            <circle cx="148" cy="96" r="3.5" />
+            <circle cx="66" cy="222" r="4" />
+            <circle cx="44" cy="316" r="3" />
+          </g>
+        </svg>
+        <svg class="hero__flora hero__flora--right" viewBox="0 0 260 420" fill="none">
+          <g stroke-linecap="round" fill="none">
+            <g class="hero__flora-back">
+              <path d="M120 420c-6-64 8-104 34-142" stroke-width="14" />
+              <path d="M60 420c-2-52 14-88 40-116" stroke-width="10" />
+              <path d="M196 420c6-44-4-76-28-102" stroke-width="11" />
+            </g>
+            <g class="hero__flora-front">
+              <path d="M150 420c-2-58 12-96 26-138 6-18 6-34-2-52" stroke-width="9" />
+              <path d="M168 286c16-12 26-28 28-48" stroke-width="6" />
+              <path d="M156 210c-16-6-26-18-30-34" stroke-width="6" />
+              <path d="M162 232c10 14 12 30 8 48" stroke-width="5" />
+              <path d="M148 166c2-14-2-26-10-36" stroke-width="5" />
+              <path d="M176 154c12-4 22-12 28-24" stroke-width="5" />
+            </g>
+          </g>
+          <g fill="currentColor">
+            <circle cx="162" cy="112" r="5" />
+            <circle cx="126" cy="98" r="3.5" />
+            <circle cx="220" cy="220" r="4" />
+            <circle cx="238" cy="312" r="3" />
+          </g>
+        </svg>
+        <span class="bubble bubble--1"></span>
+        <span class="bubble bubble--2"></span>
+        <span class="bubble bubble--3"></span>
+        <span class="bubble bubble--4"></span>
+        <span class="bubble bubble--5"></span>
+        <span class="bubble bubble--6"></span>
+        <span class="bubble bubble--7"></span>
+        <span class="bubble bubble--8"></span>
+      </div>
+
       <div class="container hero__inner">
         <div class="hero__content">
-          <p class="hero__eyebrow">Minecraft Java Edition • Мод Create</p>
-          <h1 class="hero__title">CREATE SMC</h1>
-          <p class="hero__subtitle">Индустриальный минимализм. Механика без суеты.</p>
-          <p class="hero__text">Сервер для тех, кто ценит процесс. Стройте заводы, прокладывайте поезда и создавайте сложные механизмы в моде Create.</p>
+          <p class="hero__overline">CREATE SMC <span> / </span> НОВЫЙ СЕЗОН</p>
+          <h1 class="hero__title">OCEAN<span class="hero__title-mark">.</span></h1>
+          <p class="hero__subtitle">Механика уходит на глубину.</p>
+          <p class="hero__text">Сезон OCEAN — Minecraft-сервер с модом Create. Строй механизмы под водой, исследуй мир и играй вместе с другими.</p>
 
           <div class="hero__actions">
-            <a href="https://discord.gg/JJ9uyjrTZs" target="_blank" rel="noopener" class="btn btn--primary btn--discord">
-              <span class="btn__label">Наш Discord</span>
-              <span class="btn__sub">общение • анонсы • напарники</span>
+            <a href="https://discord.gg/JJ9uyjrTZs" target="_blank" rel="noopener" class="btn btn--primary">
+              <span class="btn__label">
+                <svg class="btn__discord-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.73 5.12A19.1 19.1 0 0 0 15.04 3.7a13.2 13.2 0 0 0-.6 1.24 17.7 17.7 0 0 0-4.88 0 13.2 13.2 0 0 0-.61-1.24 19 19 0 0 0-4.7 1.42C1.28 9.5.48 13.78.88 18a19.2 19.2 0 0 0 5.76 2.9c.46-.62.87-1.29 1.22-1.99a12.5 12.5 0 0 1-1.92-.92l.47-.37a13.6 13.6 0 0 0 11.18 0l.47.37c-.61.36-1.25.67-1.93.92.35.7.76 1.37 1.22 1.99a19 19 0 0 0 5.77-2.9c.47-4.9-.8-9.13-3.39-12.88ZM8.49 15.3c-1.12 0-2.04-1.02-2.04-2.27 0-1.26.9-2.28 2.04-2.28 1.14 0 2.05 1.02 2.03 2.28 0 1.25-.9 2.27-2.03 2.27Zm7.02 0c-1.12 0-2.03-1.02-2.03-2.27 0-1.26.9-2.28 2.03-2.28 1.15 0 2.05 1.02 2.04 2.28 0 1.25-.9 2.27-2.04 2.27Z"/></svg>
+                Вступить в Discord
+              </span>
+              <span class="btn__sub">Анонсы и сборка модов</span>
             </a>
             <button class="btn btn--ghost btn--ip" id="copyIpBtn" data-ip="smc.wellduck.org" type="button">
-              <span class="btn__label">Скопировать IP</span>
+              <span class="btn__label">Адрес сервера</span>
               <span class="btn__ip">smc.wellduck.org</span>
             </button>
           </div>
           <p class="hero__hint" id="copyHint" role="status" aria-live="polite">Нажмите, чтобы скопировать IP сервера</p>
         </div>
 
-        <div class="hero__visual" aria-hidden="true">
-          <img src="img/cube.png" alt="" class="hero__cube" onerror="this.onerror=null;this.src='img/avatar.png';" />
+        <div class="hero__art">
+          <span class="hero__art-ring hero__art-ring--outer"></span>
+          <span class="hero__art-ring hero__art-ring--inner"></span>
+          <img src="img/logo-ocean.png" alt="SMC Create — логотип сезона OCEAN" class="hero__logo" />
         </div>
       </div>
-      <div class="container">
-        <figure class="hero__banner-wrap">
-          <img src="img/banner.png" alt="Баннер Create SMC" class="hero__banner" />
-          <figcaption class="hero__caption">Текущий сезон</figcaption>
-        </figure>
+
+      <div class="hero__wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+          <path d="M0,60 C240,110 480,10 720,40 C960,70 1200,20 1440,55 L1440,100 L0,100 Z"></path>
+        </svg>
       </div>
     </section>
 
     <!-- ABOUT -->
     <section class="section" id="about">
       <div class="container">
-        <p class="section__label">01 / О сервере</p>
-        <h2 class="section__title">Порядок в каждой детали</h2>
-        <p class="section__desc">Никакого визуального шума. Только механика, эстетика и уважение к чужому труду.</p>
+        <div class="about__head">
+          <div>
+            <p class="section__label">01 / О сервере</p>
+            <h2 class="section__title">Сервер про совместное строительство.</h2>
+          </div>
+          <p class="about__text">Create SMC — небольшой сервер с модом Create. Приватов нет, поэтому мир здесь один на всех: строишь что-то классное — и не ломаешь чужое. Игроков немного, зато все знают друг друга по имени.</p>
+        </div>
 
-        <div class="cards">
-          <article class="card">
-            <div class="card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06A1.7 1.7 0 0 0 15 19.4a1.7 1.7 0 0 0-1 1.55V21a2 2 0 1 1-4 0v-.09A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.55-1H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-1.55V3a2 2 0 1 1 4 0v.09a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87v.05a1.7 1.7 0 0 0 1.55 1H21a2 2 0 1 1 0 4h-.09a1.7 1.7 0 0 0-1.51 1z"/></svg>
-            </div>
-            <h3 class="card__title">Честный Create</h3>
-            <p class="card__text">Никаких лишних плагинов. Только оригинальная механика и физика мода.</p>
+        <div class="about__grid">
+          <article class="feature feature--lead">
+            <span class="feature__num">01</span>
+            <h3 class="feature__title">Честный Create</h3>
+            <p class="feature__text">Никаких лишних плагинов на сервере. Только сама механика мода, как она задумана.</p>
+            <span class="feature__rings" aria-hidden="true"></span>
           </article>
 
-          <article class="card">
-            <div class="card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>
-            </div>
-            <h3 class="card__title">Без приватов</h3>
-            <p class="card__text">Никаких регионов и замков. Всё держится на доверии и уважении к чужому труду.</p>
-          </article>
-
-          <article class="card">
-            <div class="card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-            </div>
-            <h3 class="card__title">Уютное комьюнити</h3>
-            <p class="card__text">Небольшое приватное комьюнити, где ценят чужой труд и эстетику.</p>
-          </article>
+          <div class="about__list">
+            <article class="about-line">
+              <span class="about-line__num">02</span>
+              <div>
+                <h3 class="about-line__title">Общий мир</h3>
+                <p class="about-line__text">Без приватов и регионов. Мир держится на доверии — и это работает.</p>
+              </div>
+            </article>
+            <article class="about-line">
+              <span class="about-line__num">03</span>
+              <div>
+                <h3 class="about-line__title">Сборка и помощь</h3>
+                <p class="about-line__text">Сборка модов и инструкции лежат в Discord. Если что-то не запускается — подскажут.</p>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- HOW TO PLAY -->
     <section class="section section--alt" id="how">
-      <div class="container how__grid">
-        <div class="how__content">
-          <p class="section__label">02 / Старт</p>
-          <h2 class="section__title">Как начать играть</h2>
-          <p class="section__desc">Три шага — и вы уже запускаете первый механизм.</p>
-
-          <ol class="timeline">
-            <li class="timeline__item">
-              <span class="timeline__dot" aria-hidden="true"></span>
-              <div>
-                <h3 class="timeline__title">Шаг 1 — Зайти в Discord и пройти верификацию</h3>
-                <p class="timeline__text">Заходи на наш Discord-сервер и пройди верификацию — без неё на сервер не попасть. Там же лежат сборка модов и инструкции.</p>
-                <a href="https://discord.gg/JJ9uyjrTZs" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Зайти в Discord</a>
-              </div>
-            </li>
-            <li class="timeline__item">
-              <span class="timeline__dot" aria-hidden="true"></span>
-              <div>
-                <h3 class="timeline__title">Шаг 2 — Скачать сборку модов</h3>
-                <p class="timeline__text">Сборка находится в Discord-канале под тегом «скачать сборку». Скачал, установил — и готово.</p>
-                <a href="https://discord.gg/JJ9uyjrTZs" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Скачать</a>
-              </div>
-            </li>
-            <li class="timeline__item">
-              <span class="timeline__dot" aria-hidden="true"></span>
-              <div>
-                <h3 class="timeline__title">Шаг 3 — Зайти на сервер</h3>
-                <p class="timeline__text">Откройте мультиплеер и введите адрес:</p>
-                <button class="ip-chip" id="copyIpBtn2" data-ip="smc.wellduck.org" type="button" title="Нажмите, чтобы скопировать">
-                  smc.wellduck.org
-                  <span class="ip-chip__copy">копировать</span>
-                </button>
-              </div>
-            </li>
-          </ol>
+      <div class="container">
+        <div class="about__head">
+          <div>
+            <p class="section__label">02 / Как играть</p>
+            <h2 class="section__title">Три шага до игры.</h2>
+          </div>
+          <p class="about__text">Верификация нужна, чтобы на сервер не заходили чужие люди. Сборка модов и инструкции лежат прямо в Discord.</p>
         </div>
 
-        <aside class="how__side" aria-hidden="true">
-          <img src="img/steve.png" alt="" class="how__skin" loading="lazy" onerror="this.onerror=null;this.src='img/skin.png';" />
-          <p class="how__side-caption">Твой инженер уже ждёт</p>
-        </aside>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">01</span>
+            <h3 class="step__title">Зайти в Discord</h3>
+            <p class="step__text">Зайди на наш Discord-сервер и пройди верификацию.</p>
+            <a href="https://discord.gg/JJ9uyjrTZs" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Открыть Discord</a>
+          </li>
+          <li class="step">
+            <span class="step__num">02</span>
+            <h3 class="step__title">Установить сборку</h3>
+            <p class="step__text">Скачай сборку модов из Discord и установи её.</p>
+            <a href="https://discord.gg/JJ9uyjrTZs" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Скачать сборку</a>
+          </li>
+          <li class="step step--accent">
+            <span class="step__num">03</span>
+            <h3 class="step__title">Зайти на сервер</h3>
+            <p class="step__text">Открой Minecraft, зайди в мультиплеер и введи адрес:</p>
+            <button class="ip-chip" id="copyIpBtn2" data-ip="smc.wellduck.org" type="button" title="Нажмите, чтобы скопировать">
+              smc.wellduck.org
+              <span class="ip-chip__copy">копировать</span>
+            </button>
+          </li>
+        </ol>
       </div>
     </section>
 
     <!-- SOCIALS -->
     <section class="section" id="socials">
       <div class="container">
-        <p class="section__label">03 / Связь</p>
-        <h2 class="section__title">Присоединяйся к нам</h2>
-        <p class="section__desc">Выбирайте удобную площадку. Все новости — без спама.</p>
+        <div class="section__heading">
+          <div>
+            <p class="section__label">03 / Контакты</p>
+            <h2 class="section__title">Мы в сети<span>.</span></h2>
+          </div>
+          <p class="section__desc">Новости, сборка модов и общение — в наших соцсетях.</p>
+        </div>
 
         <div class="social-grid">
           <a href="https://discord.gg/JJ9uyjrTZs" target="_blank" rel="noopener" class="social-card">
@@ -204,7 +267,7 @@
 
   <footer class="footer">
     <div class="container footer__inner">
-      <p class="footer__copy">Create SMC © 2026. Не связан с Mojang AB.</p>
+      <p class="footer__copy">Create SMC © 2026 • Сезон OCEAN. Не связан с Mojang AB.</p>
       <nav class="footer__links" aria-label="Соцсети">
         <a href="https://discord.gg/JJ9uyjrTZs" target="_blank" rel="noopener">Discord</a>
         <a href="https://t.me/CreateSMC" target="_blank" rel="noopener">Telegram</a>
